@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+input {
+  margin: 10px auto;
+  font-family: "Arial Black", serif;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 20px;
+  background-color: rgb(211, 211, 211);
+}
+
+button {
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: rgba(158, 158, 158, 0);
+  cursor: pointer;
+  border: solid 2px grey;
+  font-family: "Arial Black", serif;
+  color: #cbcba8;
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  text-align: center;
+  color: #cbcba8;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  background-image: url("https://i.imgur.com/m2HqiWK.png");
+}
+
+h1 {
+  text-align: center;
+  font-family: "Arial Black", serif;
+  text-shadow: 2px 2px 5px black;
+  margin: 0 auto;
+  color: #cbcba8;
+}
+
+p {
+  font-family: "Arial Black", serif;
+  text-align: center;
+  font-size: 22px;
+  color: #cbcba8;
+  text-shadow: 2px 2px 4px black;
+}
+
+a {
+  color: #cbcba8;
+}
+
+p#textologin {
+  color: #cbcba8;
+  font-family: "Arial Black", serif;
+}
+
+input[type="password"] {
+  font-family: "Arial Black", serif;
+  display: block;
+  margin: 0 auto;
+}
+
+h2 {
+  border: solid 2px black;
+  background-color: rgba(48, 47, 47, 0.6705882353);
+  padding: 10px;
+  display: block;
+  margin: 20px auto;
+  width: 20%;
+  border-radius: 100px;
+  font-family: monospace;
+}
+
+img {
+  border-radius: 60px;
+  border: 2px solid black;
+  margin: 20px auto;
+}
+
+p#Texto1 {
+  text-align: left;
+  text-shadow: black;
+  border: solid 2px black;
+  background-color: #302f2fab;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  border-radius: 10px;
+}
+
+div#Login {
+  color: #cbcba8;
+  border: solid 2px black;
+  background-color: #302f2fab;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+div#TituloDeRegistro {
+  border: solid 2px black;
+  background-color: #302f2fab;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+  border-radius: 100px;
+}
